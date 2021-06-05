@@ -1,9 +1,8 @@
 // variables4.rs
-// Make me compile! Execute the command `rustlings hint variables4` if you want a hint :)
-
-// I AM NOT DONE
 
 fn main() {
+    // can't apply operations to uninstantiated vars (even if type annotated)
     let x: i32;
+    x = 1337
     println!("Number {}", x);
 }
