@@ -1,10 +1,8 @@
 // functions3.rs
-// Make me compile! Execute `rustlings hint functions3` for hints :)
 
-// I AM NOT DONE
-
+// input must be provided in function call for all defined arguments 
 fn main() {
-    call_me();
+    call_me(5);
 }
 
 fn call_me(num: u32) {
